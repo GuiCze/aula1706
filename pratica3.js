@@ -1,5 +1,5 @@
 let ent;
-let todos = [];
+let todos = [1,5,5,8,9,15];
 process.stdin.on('data', function(data){
     ent=+data.toString().trim()
     if(!isNaN(ent))
